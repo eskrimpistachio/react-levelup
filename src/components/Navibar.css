@@ -1,0 +1,207 @@
+.sidebarleft{
+    width: 277px;
+    height: 650px;
+    margin-right: 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow : hidden;
+}
+.navbar{
+    position: absolute;
+    width: 262px;
+    height: 643px;
+    top: 4px;
+    left: -1px;
+    background: #312E81;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 10px 10px 0px;
+    flex-direction: column;
+}
+.companylogo a{
+    position: absolute;
+    width: 299px;
+    height: 41px;
+    left: -22px;
+    top: 15px;
+    color:#FFFF;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.arrow{
+    position: absolute;
+    transform: matrix(0.75, -0.61, 0.7, 0.76, 0, 0);
+    color:#FFFF;
+    height: 16.65px;
+    width: 18.68px;
+    left: 4%;
+    right: 97.97%;
+    top: 3.5%;
+    bottom: 90.84%;
+}
+.trash{
+    position: absolute;
+    color: #FFFF;
+    height: 18.33px;
+    width: 17.25px;
+    left: 10%;
+    right: 96.62%;
+    top: 1.5%;
+    bottom: 96%;
+}
+.userprofile{
+    width: 94px;
+    height: 95px;
+    color: #FFFF;
+    position: absolute;
+    margin: 85px 84px 454px 84px;
+}
+.username{
+    position: absolute;
+    width: 199px;
+    height: 51px;
+    left: 32px;
+    top: 200px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFF;
+    font-weight: bold;
+    text-align: center;
+}
+.navmenu{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    position: absolute;
+    left: 2%;
+    right: 96.05%;
+    top: 6%;
+    bottom: 52.73%;
+}
+/*.activenavpanel{
+    position: absolute;
+    height: 100%;
+    top: 290px;
+    left: 15px;
+    z-index: 0;
+    background: #71EFA3;
+    width: 214px;
+    height: 46px;;
+    border-radius: 10px;
+}*/
+.dashboard{
+    position: absolute;
+    font-weight: normal;
+    width: 180px;
+    height: 35px;
+    left: 30px;
+    top: 300px;
+    color:#FFFF;
+    text-decoration: none;
+    z-index: 1;
+    background: #312E81;
+    border-radius: 10px;
+}
+.dashboard:hover{
+    font-weight: bold;
+    font-style: normal;
+    color: #312E81;
+    background: #71EFA3;
+}
+.submityourtrash{
+    position: absolute;
+    width: 195px;
+    height: 35px;
+    left: 30px;
+    top: 358px;
+    color:#FFFF;
+    text-decoration: none;
+    z-index: 1;
+    background: #312E81;
+    border-radius: 10px;
+}
+.submityourtrash a{
+    position: absolute;
+    left: 47px;
+}
+.submityourtrash:hover{
+    font-weight: bold;
+    font-style: normal;
+    color: #312E81;
+    background: #71EFA3;
+}
+.leaderboard{ 
+    position: absolute;
+    width: 180px;
+    height: 35px;
+    left: 31px;
+    top: 415px;
+    color:#FFFF;
+    text-decoration: none;
+    z-index: 1;
+    background: #312E81;
+    border-radius: 10px;
+}
+.leaderboard a{
+    position: absolute;
+    left: 45px;
+}
+.leaderboard:hover{ 
+    font-weight: bold;
+    font-style: normal;
+    color: #312E81;
+    background: #71EFA3;
+}
+.historymenu{
+    position: absolute;
+    width: 199px;
+    height: 35px;
+    left: 25px;
+    top: 470px;
+    color:#FFFF;
+    text-decoration: none;
+    z-index: 1;
+    background: #312E81;
+    border-radius: 10px;
+}
+.historymenu a{
+    position: absolute;
+    left: 50px;
+}
+.historymenu:hover{
+    font-weight: bold;
+    font-style: normal;
+    color: #312E81;
+    background: #71EFA3;
+}
+.downloadicon{
+    position: absolute;
+    left: 1%;
+    right: 25%;
+    top: 4%;
+    bottom: 44.61%;
+}
+.trophyicon{
+    position: absolute;
+    left: 0%;
+    right: 98%;
+    top: 5%;
+    bottom: 40%;
+}
+.historysymbol{
+    position: absolute;
+    left: 2%;
+    right: 98%;
+    top: 5%;
+    bottom: 40%;
+}
+

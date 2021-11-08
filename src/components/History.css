@@ -1,0 +1,270 @@
+.historypage{
+    width: 1061px;
+    height: 622px;
+    display: flex;
+    flex-direction: column;
+}
+.historyheader{
+    position: absolute;
+    width: 1061px;
+    height: 140px;
+    top: -5px;
+}
+.historyheader h1{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #312E81;
+}
+.statusrecap{
+    position: absolute;
+    margin-bottom: 9px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    top: 20px;
+    color: #312E81;
+    
+}
+.totalsubmittedrecap{
+    position: absolute;
+    width: 101px;
+    height: 8px;
+    left: 300px;
+    top: 100px;
+    background: #312E81;
+    border-radius: 10px;
+}
+.totalsubmittedrecap a{
+    position: absolute;
+    left: 0px;
+    top: -60px;
+}
+.completedrecap{
+    position: absolute;
+    width: 101px;
+    height: 8px;
+    left: 485px;
+    top: 100px;
+    background: #71EFA3;
+    border-radius: 10px;
+}
+.completedrecap a{
+    position: absolute;
+    left: 0px;
+    top: -35px;
+}
+.pendingrecap{
+    position: absolute;
+    width: 101px;
+    height: 8px;
+    left: 670px;
+    top: 100px;
+    background: #EF7197;
+    border-radius: 10px;
+}
+.pendingrecap a{
+    position: absolute;
+    left: 0px;
+    top: -35px;
+}
+.historystatus{
+    position: absolute;
+    width: 1061px;
+    height: 448px;
+}
+.historybar{
+    position: absolute;
+    width: 64px;
+    height: 8px;
+    background: #71EFA3;
+    border-radius: 10px;
+    top: 200px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #312E81;
+}
+.historybar a{
+    position: relative;
+    top: -20px;
+    left: 20px;
+    margin-right: 50px;
+}
+.historybar hr{
+    position: absolute;
+    top: 10px;
+    width: 1000px;
+    height: 0px;
+    border: 5px solid #F6F5F5;
+}
+.navpanel{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1050px;
+    height: 48px;
+    top: 250px;
+}
+.searchpanel{
+    width: 198px;
+    height: 33px;
+    background: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+.filterpanel{
+    margin-left: 16px;
+    width: 105px;
+    height: 33px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+}
+.datepanel{
+    position: absolute;
+    right: 40px;
+    width: 263px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+}
+.searchpanel::placeholder{
+    position: absolute;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    top: 5px;
+    left: 40px ;
+    color: #312E81;
+}
+.searchpanelicon{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 19px;
+    height: 18px;
+}
+.filterpanel a{
+    position: absolute;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    top: 5px;
+    left: 255px ;
+    color: #312E81;
+}
+.filterpanelicon{
+    position: absolute;
+    left: 220px;
+    top: 5px;
+    width: 23px;
+    height: 23px;
+}
+.datepanel a{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #312E81;    
+}
+.datepanelicon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 1px;
+    left: 5px;
+}
+.datapanelicon2{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 2px;
+    right: 5px;
+}
+.datarecap{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1060px;
+    height: 280px;
+    top: 300px;
+    margin-top: 5px;
+}
+.databar{
+    display: flex;
+    flex-direction: row;
+}
+.databar a{
+    margin-right: 170px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #312E81;
+}
+.datalist1,.datalist2{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #312E81;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.datalist1 a,.datalist2 a{
+    margin-right: 95px;
+}
+.amount1,.amount2{
+    margin-left: 50px;
+}
+.reward1,.reward2{
+    margin-left: 80px;
+}
+.statusbar1{
+    margin-left: 60px;
+    background: #A8F1C5;
+    border-radius: 10px;
+    width: 101px;
+    height: 30px;
+}
+.statusbar1 a{
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    left: 10px;
+    color: #3BCF76;
+}
+.statusbar2{
+    text-align: center;
+    margin-left: 60px;
+    width: 101px;
+    height: 30px;
+    background: rgba(239, 113, 151, 0.53);
+    border-radius: 10px;
+}
+.statusbar2 a{
+    position: relative;
+    left: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F05080;
+}
