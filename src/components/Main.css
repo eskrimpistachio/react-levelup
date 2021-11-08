@@ -4,6 +4,7 @@
     margin-top: 0px;
     box-sizing: border-box;
     overflow: hidden;
+    flex: 1 1 auto;
 }
 .loginName{
     position: absolute;

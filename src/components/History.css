@@ -1,8 +1,10 @@
 .historypage{
     width: 1061px;
     height: 622px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
 }
 .historyheader{
     position: absolute;
