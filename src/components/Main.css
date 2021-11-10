@@ -1,90 +1,98 @@
 .sidebarmiddle{
     position: relative;
-    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
     margin-top: 0px;
     box-sizing: border-box;
     overflow: hidden;
     flex: 1 1 auto;
 }
+.middletop{
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+.greeting{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 430px;
+    margin-left: 80px;
+}
 .loginName{
-    position: absolute;
-    top: 14px;
-    left: 90px;
+    margin-bottom: 5px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
-
     color: #312E81;
 }
 .todayDate{
-    position: absolute;
-    top: 40px;
-    left: 90px;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 15px;
     color: #312E81;
+    width: 270px;
 }
 .searchSubmit{
     position: relative;
-    width: 324px;
-    height: 79px;
-    left: 810px;
-    top: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 60px;
+    margin-top: 5px;
+    margin-right: 0px;
     font-style: normal;
     font-weight: normal;
 }
 .searchSubmit a{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;    
+    font-size: 16px; 
     color: #FFFFFF;
     text-decoration: none;
 }
 .searchbutton{
-    position: absolute;
     width: 59px;
     height: 52px;
-    left: 740px;
-    top: 10px;
     z-index: -1;
     background: #F6F5F5;
     border-radius: 12px;
+    margin-right: 20px;
+    margin-left: -40px;
 }
 .submitbutton{
-    position: absolute;
+    position: relative;
+    margin-left: 820px;
+    margin-top: -80px;
     width: 184px;
-    height: 49px;
-    left: 820px;
-    top: 10px;
+    height: 50px;
     z-index: -1;
     background: #312E81;
     border-radius: 10px;
 }
 .searchicon{
     position: relative;
+    margin-top: 10px;
     width: 24px;
     height: 24px;
-    left: -16%;
-    right: 85%;
-    top: 10%;
-    bottom: 93.35%;
+    margin-left: 20px;
     color: #312E81;
 }
 .downloadicon2{
-    position: relative;
-    left: 5%;
-    right: 4%;
-    top: 2.5%;
-    bottom: 93.5%;
+    position: absolute;
+    left: 140px;
 }
 .coastlineImage{
-    margin-top: -75px;
+    margin-top: -50px;
     margin-left: 80px;
     margin-bottom: 0px;
 }
@@ -119,10 +127,12 @@
 }
 .timeLimit{
     position: relative;
+    margin-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
     width: 399px;
     height: 215px;
-    left: 80px;
-    top: 40px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -131,10 +141,8 @@
     position: relative;
     width: 128px;
     height: 28px;
-    left: -420px;
-    top: 20px;
-    
-    font-family: Source Sans Pro;
+    margin-top: 15px;
+    margin-left: 70px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -144,9 +152,11 @@
     color: #312E81;
 }
 .timereward{
-    position: absolute;
-    width: 188px;
-    height: 14px;
+    position: relative;
+    width: 600px;
+    height: 0px;
+    margin-top: 5px;
+    margin-right: 5px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 300;
@@ -161,10 +171,10 @@
     left: 10px;
 }
 .progresscontainer{
-    position: absolute;
+    position: relative;
+    margin-top: 30px;
     width: 399px;
-    height: 89px;
-    top: 126px;
+    height: 70px;
     background: #312E81;
     border-radius: 10px;
     z-index: 0;
@@ -187,143 +197,128 @@
 }
 .countdown{
     position: relative;
-    top: -5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.timerewardtext{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 85px;
 }
 .separator{
-    position: absolute;
-    top: 60px;
-    left: 120px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
 }
 .separator2{
-    position: absolute;
-    top: 60px;
-    left: 200px;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .separator3{
-    position: absolute;
-    top: 60px;
-    left: 280px;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .dayscountdown{
-    position: absolute;
-    top: 60px;
-    left: 60px;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
 }
 .daystext{
-    position: absolute;
-    width: 61px;
-    height: 18px;
-    left: 50px;
-    top: 105px;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 13px;
-    text-align: center;
     color: #312E81;
 }
 .hourscountdown{
-    position: absolute;
-    top: 60px;
-    left: 150px;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
 }
 .hourstext{
-    position: absolute;
-    top: 105px;
-    left: 150px;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 13px;
     text-align: center;
     color: #312E81;
+    margin-left: 40px;
+    margin-right: 30px;
 }
 .minutescountdown{
-    position: absolute;
-    top: 60px;
-    left: 230px;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
 }
 .minutestext{
-    position: absolute;
-    top: 105px;
     font-style: normal;
     font-weight: normal;
     font-size : 10px;
     line-height: 13px;
     text-align: center;
     left: 230px; 
+    margin-right: 40px;
 }
 .secondcountdown{
-    position: absolute;
-    top: 60px;
-    left: 300px;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
 }
 .secondtext{
-    position: absolute;
-    top: 105px;
     font-style: normal;
     font-weight: normal;
     font-size : 10px;
     line-height: 13px;
     text-align: center;
-    left: 300px; 
 }
 .topleaderboardtext{
     position: relative;
-    width: 214px;
-    height: 55px;
-    left: 180px;
-    top: -220px;
+    margin-left: 590px;
+    margin-top: -250px;
     font-style: normal;
+    width: 150px;
+    text-align: center;
     font-weight: bold;
     font-size: 18px;
-    line-height: 23px;
-    text-align: center;
+    line-height: 24px;
     color: #312E81;
 }
 .topleaderboard{
-    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 600px;
     width: 400px;
     height: 104px;
-    left: 600px;
-    top: 425px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 .rangkingplace{
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    left: 5px;
+    margin-left: 5px;
 }
 .rangkingplace a{
     margin-top: 5px;
@@ -335,11 +330,11 @@
     color: #50CB93;
 }
 .rangkingname{
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
-    top: 5px;
-    left: 80px;
+    margin-top: 5px;
+    margin-left: 40px;
     text-align: left;
 }
 .rangkingname a{
@@ -351,14 +346,13 @@
     margin-bottom: 24px;
 }
 .pointperson{
-    position: absolute;
-    right: 15px;
+    position: relative;
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 .pointperson a{
     margin-bottom: 16px;
-    right: 5px;
     font-style: normal;
     font-weight: normal;
     color: #EF7197;
@@ -367,8 +361,8 @@
     position: relative;
     width: 69px;
     height: 29px;
-    left: 50px;
-    top: -60px;
+    margin-top: 10px;
+    margin-left: 790px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -380,8 +374,8 @@
     position: relative;
     width: 69px;
     height: 29px;
-    left: 205px;
-    top: -60px;
+    margin-top : -30px;
+    margin-left: 600px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -389,12 +383,16 @@
     text-align: center;
     color: #312E81;
 }
+
+.thescore{
+    display: block;
+}
 .rangking{
-    position: absolute;
+    position: relative;
+    margin-left: 600px;
+    margin-top: -65px;
     width: 107px;
     height: 67px;
-    left: 800px;
-    top: 570px;
     background: #EF7197;
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -407,11 +405,10 @@
     color: #FFFFFF;    
 }
 .currency{
-    position: absolute;
+    position: relative;
+    margin-left: 800px;
     width: 107px;
     height: 67px;
-    left: 600px;
-    top: 570px;
     background: #EF7197;
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -426,5 +423,140 @@
     line-height: 50px;
     text-align: center;
     color: #FFFFFF;
-    
+}
+@media (min-width: 1200px) and (max-width: 1320px) {
+    .sidebarmiddle{
+        margin-left: -40px;
+    }
+    .coastlineImage img{
+        margin-top: 0px;
+        width: 820px;
+        height: 250px;
+        border-radius: 50px;
+    }
+    .topleaderboard{
+        margin-left: 510px;
+    }
+    .topleaderboardtext{
+        margin-left: 500px;
+    }
+    .rangking{
+        margin-left: 510px;
+    }
+    .rangkingtext{
+        margin-left: 510px;
+    }
+    .currency{
+        margin-left: 640px;
+    }
+    .currencytext{
+        margin-left: 630px;
+    }
+    .searchSubmit{
+        position: relative;
+        right: 180px;
+    }
+    .submitbutton{
+        right: 180px;
+    }
+}
+@media (min-width: 1600px){
+    .sidebarmiddle{
+        margin-left: 40px;
+    }
+    .coastlineImage img{
+        margin-top: 0px;
+        width: 1020px;
+        height: 450px;
+        border-radius: 50px;
+    }
+    .coastlineImage a{
+        position: relative;
+        width: 934px;
+        height: 244px;
+        left: 25px;
+        top: 100px;
+        font-size: 68px;
+        z-index: 1px;
+    }
+    .topleaderboard{
+        margin-left: 590px;
+        width: 500px;
+        height: 204px;
+        
+    }
+    .topleaderboardtext{
+        margin-left: 560px;
+        font-size: 36px;
+        line-height: 54px;
+        width: 350px;
+    }
+    .rangking{
+        margin-left: 590px;
+    }
+    .rangkingtext{
+        margin-left: 590px;
+    }
+    .rangkingplace a{
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .rangkingname a{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .pointperson a{
+        font-size: 24px;
+        margin-top: 8px;
+        line-height: 40px;
+    }
+    .currency{
+        margin-top: 40px;
+        margin-left: 920px;
+        width: 180px;
+        height: 100px;
+    }
+    .currency a{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .currencytext{
+        margin-left: 824px;
+        width: 69px;
+        height: 29px;
+        font-size: 36px;
+        line-height: 40px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        margin-left: 920px;
+    }
+    .rangking{
+        margin-top: -100px;
+        margin-left: 590px;
+        width: 180px;
+        height: 100px; 
+    }
+    .rangking a{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .rangkingtext{
+        margin-left: 590px;
+        width: 69px;
+        height: 29px;
+        font-size: 36px;
+        margin-top: -40px;
+        line-height: 40px;
+    }
+    .searchSubmit{
+        position: relative;
+        right: 180px;
+    }
+    .submitbutton{
+        right: 180px;
+    }
 }

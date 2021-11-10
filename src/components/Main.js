@@ -115,25 +115,29 @@ function Main() {
 
   return (
     <div className="sidebarmiddle">
-      <div className="greeting">
-        <div className="loginName">
-          <a>Hello, Alfatih Rizqi Alfian</a>
+
+      <div className="middletop">
+        <div className="greeting">
+          <div className="loginName">
+            <a>Hello, Alfatih Rizqi Alfian</a>
+          </div>
+          <div className="todayDate">
+            <a>
+              Today is {todayday}, {dayNum} {todaymonth} {year}
+            </a>
+          </div>
         </div>
-        <div className="todayDate">
-          <a>
-            Today is {todayday}, {dayNum} {todaymonth} {year}
-          </a>
+        <div className="searchSubmit">
+          <div className="searchbutton">
+            <Icon icon="ant-design:search-outlined" className="searchicon" />
+          </div>
+            <Link to="/main-submit">
+              Submit your Trash{" "}
+              <Icon icon="bi:download" className="downloadicon2" />
+            </Link>
         </div>
-      </div>
-      <div className="searchSubmit">
-        <Icon icon="ant-design:search-outlined" className="searchicon" />
-        <Link to="/main-submit">
-          Submit your Trash{" "}
-          <Icon icon="bi:download" className="downloadicon2" />
-        </Link>
       </div>
       <div className="submitbutton"></div>
-      <div className="searchbutton"></div>
       <div className="coastlineImage">
         <a>Lets make our coastline cleaner.</a>
         <img
@@ -145,22 +149,32 @@ function Main() {
         ></img>
       </div>
       <div className="displayMenu">
-        <a className="timelimitText">Time Limits</a>
+        <div className="timelimitText">Time Limits</div>
         <div className="timeLimit">
+          
           <a className="timereward">Waktu Sebelum Pembagian Reward</a>
           <hr className="timerewardborder"></hr>
+
           <div className="countdown">
+
             <a className="dayscountdown">{timerDays}</a>
             <a className="separator">:</a>
-            <a className="daystext">Days</a>
+            
             <a className="hourscountdown">{timerHours}</a>
             <a className="separator2">:</a>
-            <a className="hourstext">Hours</a>
+            
             <a className="minutescountdown">{timerMinutes}</a>
-            <a className="minutestext">Minutes</a>
+            
             <a className="separator3">:</a>
             <a className="secondcountdown">{timerSeconds}</a>
-            <a className="secondtext">Seconds</a>
+          
+          </div>
+
+          <div className = "timerewardtext">
+              <a className="daystext">Days</a>
+              <a className="hourstext">Hours</a>
+              <a className="minutestext">Minutes</a>
+              <a className="secondtext">Seconds</a>
           </div>
 
           <div className="progresscontainer">
@@ -171,7 +185,8 @@ function Main() {
             </a>
           </div>
         </div>
-        <a className="topleaderboardtext">Top Leaderboards</a>
+
+        <div className="topleaderboardtext">Top Leaderboards</div>
         <div className="topleaderboard">
           <div className="rangkingplace">
             <a>1st</a>
@@ -189,13 +204,16 @@ function Main() {
             <a>78</a>
           </div>
         </div>
-        <a className="currencytext">Pearls</a>
-        <div className="currency">
-          <a>85</a>
-        </div>
-        <a className="rangkingtext">Rangking</a>
-        <div className="rangking">
-          <a>#1</a>
+        <div className="currencytext">Pearls</div>
+        
+        <div className="rangkingtext">Rangking</div>
+        <div className="thescore">
+          <div className="currency">
+            <a>85</a>
+          </div>
+          <div className="rangking">
+            <a>#1</a>
+          </div>
         </div>
       </div>
     </div>

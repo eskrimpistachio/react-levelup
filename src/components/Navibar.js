@@ -37,7 +37,6 @@ const Navibar = () => {
           <Icon icon="akar-icons:clock" className="historysymbol" />
           <a>History</a>
         </Link>
-        <div className="activenavpanel start"></div>
       </div>
     </div>
   );

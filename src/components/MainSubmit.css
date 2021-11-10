@@ -1,10 +1,10 @@
 .submitform{
     display: flex;
-    position: absolute;
+    position: relative;
     width: 1064px;
     height: 636px;
     flex-wrap: wrap;
-    left: 300px;
+    margin-left: 10px;
 }
 .submittrashtitle{
     position: absolute;
