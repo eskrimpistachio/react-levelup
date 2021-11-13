@@ -71,6 +71,7 @@ function Main() {
       break;
     case 5:
       todayday = "Friday";
+      break;
     case 6:
       todayday = "Saturday";
   }
